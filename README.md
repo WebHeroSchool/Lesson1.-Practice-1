@@ -1,2 +1,0 @@
-# HamovaProject
-my training file
