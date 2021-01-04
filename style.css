@@ -1,14 +1,14 @@
-.qwe {
+.main-content__title {
   font-family: 'Oswald', sans-serif;
   color:green;
 }
 
-.z {
+.main-content__subtitle {
   font-family: 'Lobster', cursive;
 }
-.list {
+.menu {
   text-decoration: underline;
 }
-button {
+.main-content__button {
   color:blue;
 }
