@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .main-content__title {
   font-family: 'Oswald', sans-serif;
   color:green;
@@ -12,3 +13,19 @@
 .main-content__button {
   color:blue;
 }
+=======
+.qwe {
+  font-family: 'Oswald', sans-serif;
+  color:green;
+}
+
+.z {
+  font-family: 'Lobster', cursive;
+}
+.list {
+  text-decoration: underline;
+}
+button {
+  color:blue;
+}
+>>>>>>> main
