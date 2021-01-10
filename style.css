@@ -6,7 +6,7 @@
 .main-content__subtitle {
   font-family: 'Lobster', cursive;
 }
-.menu {
+.menu { 
   display: flex;
   align-items: center;
 }
