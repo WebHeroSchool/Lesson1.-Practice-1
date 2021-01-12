@@ -3,7 +3,7 @@
 }
 
 .main-content__subtitle {
-  font-family: 'Lobster', cursive;
+  font-family: 'Roboto', sans-serif;
 }
 .menu {
   display: flex;
@@ -24,6 +24,8 @@
 
 .menu__item{
   padding: 0 13px;
+  font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+  color: #000;
 }
 
 .menu__item:last-child{
