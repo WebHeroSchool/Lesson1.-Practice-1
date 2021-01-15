@@ -13,7 +13,7 @@
 }
 
 .header{
-  padding: 20px 40px;
+  padding: 20px 80px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 100px;
@@ -28,7 +28,7 @@
 .menu__item{
   position: relative;
   margin-right: 26px;
-  font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+  font: 700 18px/21px Roboto, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
   transition: opacity 0.5s;
@@ -72,7 +72,7 @@
 }
 
 .main{
-  padding: 0 63% 150px 40px;
+  padding: 0 63% 150px 80px;
   background: top right no-repeat url(img/mainlmg.svg);
   background-position: center right 180px;
   background-size: 600px;
