@@ -1,21 +1,21 @@
 .main__title {
-  font: bold 50px/69px pt_serif, arial, helvetica, sans-serif;
-  margin: 103px 3px 30px 70px;
+  font: bold 53px/69px pt_serif, arial, helvetica, sans-serif;
+  margin: 107px 3px 32px 70px;
 }
 
 .main__subtitle {
   font: 18px/21px Roboto, arial, helvetica, sans-serif;
-  margin: 0 0 39px 70px;
+  margin: 0 0 33px 69px;
   width: 350px;
 }
 .menu {
   display: flex;
   align-items: center;
-  margin-right: 430px;
+  margin-right: 386px;
 }
 
 .header{
-  padding: 25px 150px;
+  padding: 22px 151px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 7px;
@@ -78,7 +78,7 @@
 .main{
   padding: 51px 63% 209px 79px;
   background: top right no-repeat url(img/mainlmg.svg);
-  background-position: center right 575px;
+  background-position: center right 533px;
   background-size: 617px;
 }
 
@@ -91,11 +91,11 @@
   font: 14px/16px Roboto, arial, helvetica, sans-serif;
   color: #fff;
   background: #0056EC;
-  padding: 14px 29px;
+  padding: 15px 28px;
   text-decoration: none;
   border-radius: 4px;
   transition: opacity .5s;
-  margin: 0 0 0 66px;
+  margin: 0 0 0 68px;
 }
 
 .main__button:hover{
