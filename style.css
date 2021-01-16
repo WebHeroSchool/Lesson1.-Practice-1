@@ -1,34 +1,38 @@
 .main__title {
-  font: bold 50px/65px pt_serif, arial, helvetica, sans-serif;
-  margin: 0 0 40px 0;
+  font: bold 50px/69px pt_serif, arial, helvetica, sans-serif;
+  margin: 103px 3px 30px 70px;
 }
 
 .main__subtitle {
   font: 18px/21px Roboto, arial, helvetica, sans-serif;
-  margin: 0 0 41px 0;
+  margin: 0 0 39px 70px;
+  width: 350px;
 }
 .menu {
   display: flex;
   align-items: center;
+  margin-right: 430px;
 }
 
 .header{
-  padding: 20px 80px;
+  padding: 25px 150px;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 7px;
 }
 
 .logo{
   width: 190px;
   height: 35px;
   background: url('img/logo.svg');
+  background-size: 150px;
+  background-repeat:no-repeat;
 }
 
 .menu__item{
   position: relative;
-  margin-right: 26px;
-  font: 700 18px/21px Roboto, arial, helvetica, sans-serif;
+  margin-right: 24px;
+  font: 700 14px/21px Roboto, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
   transition: opacity 0.5s;
@@ -72,10 +76,10 @@
 }
 
 .main{
-  padding: 0 63% 150px 80px;
+  padding: 51px 63% 209px 79px;
   background: top right no-repeat url(img/mainlmg.svg);
-  background-position: center right 180px;
-  background-size: 600px;
+  background-position: center right 575px;
+  background-size: 617px;
 }
 
 .main__title-text_highlight{
@@ -87,10 +91,11 @@
   font: 14px/16px Roboto, arial, helvetica, sans-serif;
   color: #fff;
   background: #0056EC;
-  padding: 14px 16px;
+  padding: 14px 29px;
   text-decoration: none;
   border-radius: 4px;
   transition: opacity .5s;
+  margin: 0 0 0 66px;
 }
 
 .main__button:hover{
