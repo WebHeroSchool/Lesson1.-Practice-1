@@ -1,38 +1,38 @@
 .main__title {
-  font: bold 53px/69px pt_serif, arial, helvetica, sans-serif;
-  margin: 107px 3px 32px 70px;
+  font: bold 67px/88px pt_serif, arial, helvetica, sans-serif;
+  margin: 150px 3px 37px 66px;
 }
 
 .main__subtitle {
-  font: 18px/21px Roboto, arial, helvetica, sans-serif;
-  margin: 0 0 33px 69px;
-  width: 350px;
+  font: 23px/22px Roboto, arial, helvetica, sans-serif;
+  margin: 0 0 33px 70px;
+  width: 453px;
 }
 .menu {
   display: flex;
   align-items: center;
-  margin-right: 386px;
+  margin-right: 9px;
 }
 
 .header{
-  padding: 22px 151px;
+  padding: 30px 185px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 7px;
 }
 
 .logo{
-  width: 190px;
-  height: 35px;
+  width: 200px;
+  height: 37px;
   background: url('img/logo.svg');
-  background-size: 150px;
+  background-size: 193px;
   background-repeat:no-repeat;
 }
 
 .menu__item{
   position: relative;
-  margin-right: 24px;
-  font: 700 14px/21px Roboto, arial, helvetica, sans-serif;
+  margin-right: 28px;
+  font: 700 18px/40px Roboto, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
   transition: opacity 0.5s;
@@ -76,10 +76,10 @@
 }
 
 .main{
-  padding: 51px 63% 209px 79px;
+  padding: 51px 63% 265px 116px;
   background: top right no-repeat url(img/mainlmg.svg);
-  background-position: center right 533px;
-  background-size: 617px;
+  background-position: center right 190px;
+  background-size: 768px;
 }
 
 .main__title-text_highlight{
@@ -88,14 +88,14 @@
 
 .main__button{
   display: inline-block;
-  font: 14px/16px Roboto, arial, helvetica, sans-serif;
+  font: 18px/17px Roboto, arial, helvetica, sans-serif;
   color: #fff;
   background: #0056EC;
-  padding: 15px 28px;
+  padding: 25px 39px 19px 21px;
   text-decoration: none;
   border-radius: 4px;
   transition: opacity .5s;
-  margin: 0 0 0 68px;
+  margin: 9px 0 0 73px;
 }
 
 .main__button:hover{
