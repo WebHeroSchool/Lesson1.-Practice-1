@@ -33,14 +33,14 @@
 .menu__item{
   position: relative;
   margin-right: 28px;
-  font: 700 18px/40px Roboto, arial, helvetica, sans-serif;
+  font: 500 18px/40px Roboto, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
   transition: opacity 0.5s;
 }
 
 .menu__item:last-child{
-  margin-right: 0;
+  margin-right: 1px;
 }
 
 .menu__item_active:after{
@@ -53,6 +53,7 @@
   background: #0056EC;
   opacity: 0;
   transition: opacity 0.5s;
+  top:28px;
 }
 
 .menu__item:hover:after{
@@ -116,14 +117,14 @@
   background-repeat:no-repeat;
 }
 .header{
-    margin:28px -155px;
+    margin:28px -152px;
     padding: 11px 363px;
   }
  .menu {
-    margin: -57px 0px 0px 612px;
+    margin: -20px 4px 0px 400px;
   }
   .menu__item{
-      margin-right: 23px;
+      margin-right: 26px;
       font: 700 14px/40px Roboto, arial, helvetica, sans-serif;
     }
   .main{
@@ -137,15 +138,16 @@
     font: bold 51px/64px pt_serif, arial, helvetica, sans-serif;
   }
   .main__subtitle{
-    margin:0px 0px 20px 6px;
-    font: 500 19px/21px Roboto, arial, helvetica, sans-serif;
+    margin:0px 0px 20px 177px;
+    font: 500 18px/23px Roboto, arial, helvetica, sans-serif;
     width: 351px;
   }
 
   .main__button{
-    font: 500 13px/3px Roboto, arial, helvetica, sans-serif;
-    margin: 24px 0px 0px 177px;
+    font: 500 14px/3px Roboto, arial, helvetica, sans-serif;
+    margin: 19px 0px 0px 178px;
     border-radius:4px;
+    padding: 22px 26px 20px 16px;
   }
 }
 
@@ -278,7 +280,7 @@
   padding: 80px 0;
   list-style: none;
   text-align: center;
-  background-color: #ECEFF1;
+  background-color: #FFF;
   box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
 }
 /* элементы меню */
@@ -293,6 +295,10 @@
 }
 .menu__item:hover {
   background-color: #CFD8DC;
+}
+.menu__item_active:after{
+  top: 49px;
+  opacity: 0;
 }
 
 #menu__toggle:checked ~ .menu__btn > span {
