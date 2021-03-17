@@ -163,7 +163,7 @@
     padding: 11px 185px;
   }
    .menu {
-    margin: -18px 8px;
+    margin: -19px 3px;
   }
     .menu__item{
       margin-right: 26px;
@@ -173,7 +173,7 @@
   .main{
     padding: 15% 31px 136px 33px;
     background-size: 50%;
-    background-position: center right 46px;
+    background-position: center right 44px;
   }
 
   .main__title{
@@ -182,13 +182,13 @@
   }
   .main__subtitle{
     margin:0px 0px 20px 6px;
-    font: 500 19px/21px Roboto, arial, helvetica, sans-serif;
+    font: 500 18px/23px Roboto, arial, helvetica, sans-serif;
     width: 351px;
   }
 
   .main__button{
-    font: 500 13px/3px Roboto, arial, helvetica, sans-serif;
-    margin: 19px 0px 0px 6px;
+    font: 500 14px/3px Roboto, arial, helvetica, sans-serif;
+    margin: 19px 0px 0px 5px;
     border-radius:4px;
   }
 }
