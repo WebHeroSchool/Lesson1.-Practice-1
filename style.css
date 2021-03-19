@@ -241,9 +241,9 @@
   display: flex; /* используем flex для центрирования содержимого */
   align-items: center;  /* центрируем содержимое кнопки */
   position: fixed;
-  top: 20px;
-  right: 20px;
-  width: 26px;
+  top: 27px;
+  right: 23px;
+  width: 27px;
   height: 26px;
   cursor: pointer;
   z-index: 1;
@@ -274,22 +274,21 @@
   visibility: hidden;
   top: 0;
   left: -100%;
-  width: 300px;
+  width: 400px;
   height: 100%;
   margin: 0;
-  padding: 80px 0;
+  padding: 172px 0;
   list-style: none;
   text-align: center;
   background-color: #FFF;
-  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
 }
 /* элементы меню */
 .menu__item {
   display: block;
-  padding: 12px 24px;
+  padding: 10px 24px;
   color: #333;
   font-family: 'Roboto', sans-serif;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 600;
   text-decoration: none;
 }
@@ -299,6 +298,9 @@
 .menu__item_active:after{
   top: 49px;
   opacity: 0;
+}
+.menu__item:last-child{
+  margin-right: 1px;
 }
 
 #menu__toggle:checked ~ .menu__btn > span {
