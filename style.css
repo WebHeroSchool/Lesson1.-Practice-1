@@ -86,8 +86,13 @@
   float:left;
 }
 
-.main__title-text_highlight{
-  background: #ECF3FF;
+.main__title-text_highlight_1 {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 95%, #ECF3FF 5%, #FFF 5%),
+  linear-gradient(to top, #ECF3FF 90%, #FFF 10%);
+}
+.main__title-text_highlight_2{
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 90%, #ECF3FF, rgba(255, 255, 255, 0) 10%, #FFF 10%),
+linear-gradient(to top, #ECF3FF 90%, #ECF3FF 10%, #FFF 10%);
 }
 
 .main__button{
@@ -109,6 +114,28 @@
 #menu__toggle{
   opacity: 0;
 }
+
+.circle_1{
+  background: #c8dbfb;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  transform: translate(936px, 896px);
+}
+  .circle_2{
+    background: #c8dbfb;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    transform: translate(948px, 888px);
+  }
+  .circle_3{
+    background: #c8dbfb;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    transform: translate(960px, 880px);
+  }
 
  @keyframes move {
    0% {
@@ -211,6 +238,28 @@
     padding: 22px 27px 20px 16px;
   }
 
+  .circle_1{
+    background: #c8dbfb;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    transform: translate(659px, 576px);
+  }
+    .circle_2{
+      background: #c8dbfb;
+      border-radius: 50%;
+      width: 8px;
+      height: 8px;
+      transform: translate(671px, 568px);
+    }
+    .circle_3{
+      background: #c8dbfb;
+      border-radius: 50%;
+      width: 8px;
+      height: 8px;
+      transform: translate(683px, 560px);
+    }
+
   @keyframes move {
     0% {
       transform: translateX(0%);
@@ -280,6 +329,28 @@
     margin: 19px 0px 0px 7px;
     border-radius:4px;
   }
+
+  .circle_1{
+    background: #c8dbfb;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    transform: translate(488px, 581px);
+  }
+    .circle_2{
+      background: #c8dbfb;
+      border-radius: 50%;
+      width: 8px;
+      height: 8px;
+      transform: translate(500px, 573px);
+    }
+    .circle_3{
+      background: #c8dbfb;
+      border-radius: 50%;
+      width: 8px;
+      height: 8px;
+      transform: translate(512px, 565px);
+    }
 
   @keyframes move {
     0% {
@@ -444,6 +515,28 @@
 .menu__item {
   transition-duration: .25s;
 }
+.circle_1{
+  background: #FFF;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  transform: translate(0px, 0px);
+}
+  .circle_2{
+    background: #FFF;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    transform: translate(0px, 0px);
+  }
+  .circle_3{
+    background: #FFF;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    transform: translate(0px, 0px);
+  }
+
 @keyframes move {
   0% {
     transform: translateX(0%);
