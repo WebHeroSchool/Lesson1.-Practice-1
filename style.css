@@ -299,7 +299,7 @@ linear-gradient(to top, #ECF3FF 90%, #ECF3FF 10%, #FFF 10%);
     }
 }
 
-@media (max-width:768px) {
+@media (max-width:768px) { 
   .menu{
     display:none;
   }
