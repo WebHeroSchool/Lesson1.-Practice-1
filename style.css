@@ -342,10 +342,10 @@ linear-gradient(to top, #ECF3FF 90%, #ECF3FF 10%, #FFF 10%);
   #menu__toggle{
     opacity: 0;
   }
-  /* стилизуем кнопку */
+
 .menu__btn {
-  display: flex; /* используем flex для центрирования содержимого */
-  align-items: center;  /* центрируем содержимое кнопки */
+  display: flex;
+  align-items: center;
   position: fixed;
   top: 27px;
   right: 23px;
@@ -354,7 +354,7 @@ linear-gradient(to top, #ECF3FF 90%, #ECF3FF 10%, #FFF 10%);
   cursor: pointer;
   z-index: 1;
 }
-/* добавляем "гамбургер" */
+
 .menu__btn > span,
 .menu__btn > span::before,
 .menu__btn > span::after {
@@ -373,7 +373,7 @@ linear-gradient(to top, #ECF3FF 90%, #ECF3FF 10%, #FFF 10%);
   top: 8px;
 }
 
-/* контейнер меню */
+
 .menu {
   display: block;
   position: fixed;
@@ -388,7 +388,6 @@ linear-gradient(to top, #ECF3FF 90%, #ECF3FF 10%, #FFF 10%);
   text-align: center;
   background-color: #FFF;
 }
-/* элементы меню */
 .menu__item {
   display: block;
   padding: 10px 24px;
