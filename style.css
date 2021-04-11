@@ -15,14 +15,14 @@
   margin: -23px 9px;
 }
 
-.header{
+.header {
   padding: 32px 185px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 7px;
 }
 
-.logo{
+.logo {
   width: 200px;
   height: 37px;
   background: url('img/logo.svg');
@@ -30,7 +30,7 @@
   background-repeat:no-repeat;
 }
 
-.menu__item{
+.menu__item {
   position: relative;
   margin-right: 26px;
   font: 500 18px/45px Roboto, arial, helvetica, sans-serif;
@@ -39,11 +39,11 @@
   transition: opacity 0.5s;
 }
 
-.menu__item:last-child{
+.menu__item:last-child {
   margin-right: 1px;
 }
 
-.menu__item_active:after{
+.menu__item_active:after {
   position: absolute;
   display: block;
   content: '';
@@ -56,7 +56,7 @@
   top:32px;
 }
 
-.menu__item:hover:after{
+.menu__item:hover:after {
   position: absolute;
   display: block;
   content: '';
@@ -68,16 +68,16 @@
   transition: opacity 0.5s, width 0.5s;
 }
 
-.menu__item:hover{
+.menu__item:hover {
   opacity: 0.5;
 }
 
-.menu__item:hover:after, .menu__item_active:after{
+.menu__item:hover:after, .menu__item_active:after {
   opacity: 1;
   width: 100%;
 }
 
-.main{
+.main {
   padding: 49px 63% 262px 116px;
   background: top right no-repeat url(img/mainlmg.svg);
   background-position: center right 189px;
@@ -89,12 +89,12 @@
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 95%, #ECF3FF 5%, #FFF 5%),
   linear-gradient(to top, #ECF3FF 90%, #FFF 10%);
 }
-.main__title-text_highlight_2{
+.main__title-text_highlight_2 {
   background: linear-gradient(to right, rgba(255, 255, 255, 0) 90%, #ECF3FF, rgba(255, 255, 255, 0) 10%, #FFF 10%),
 linear-gradient(to top, #ECF3FF 90%, #ECF3FF 10%, #FFF 10%);
 }
 
-.main__button{
+.main__button {
   display: inline-block;
   font: 18px/17px Roboto, arial, helvetica, sans-serif;
   color: #fff;
@@ -106,29 +106,29 @@ linear-gradient(to top, #ECF3FF 90%, #ECF3FF 10%, #FFF 10%);
   margin: 13px 0 0 72px;
 }
 
-.main__button:hover{
+.main__button:hover {
   opacity: .5;
 }
 
-#menu__toggle{
+#menu__toggle {
   opacity: 0;
 }
 
-.circle_1{
+.circle_1 {
   background: #c8dbfb;
   border-radius: 50%;
   width: 8px;
   height: 8px;
   transform: translate(936px, 916px);
 }
-  .circle_2{
+  .circle_2 {
     background: #c8dbfb;
     border-radius: 50%;
     width: 8px;
     height: 8px;
     transform: translate(948px, 908px);
   }
-  .circle_3{
+  .circle_3 {
     background: #c8dbfb;
     border-radius: 50%;
     width: 8px;
@@ -136,25 +136,25 @@ linear-gradient(to top, #ECF3FF 90%, #ECF3FF 10%, #FFF 10%);
     transform: translate(960px, 900px);
   }
 
-@media(max-width:1367px){
+@media(max-width:1367px) {
   .logo{
   width: 200px;
   height: 37px;
   background-size: 193px;
   background-repeat:no-repeat;
 }
-.header{
+.header {
     margin:28px 0px;
     padding: 11px 210px;
   }
  .menu {
     margin: -20px 4px 0px 400px;
   }
-  .menu__item{
+  .menu__item {
       margin-right: 26px;
       font: 700 14px/40px Roboto, arial, helvetica, sans-serif;
     }
-  .menu__item_active:after{
+  .menu__item_active:after {
       position: absolute;
       display: block;
       content: '';
@@ -166,7 +166,7 @@ linear-gradient(to top, #ECF3FF 90%, #ECF3FF 10%, #FFF 10%);
       transition: opacity 0.5s;
       top:29px;
     }
-    .menu__item:hover:after{
+    .menu__item:hover:after {
       position: absolute;
       display: block;
       content: '';
@@ -178,53 +178,53 @@ linear-gradient(to top, #ECF3FF 90%, #ECF3FF 10%, #FFF 10%);
       transition: opacity 0.5s, width 0.5s;
     }
 
-    .menu__item:hover{
+    .menu__item:hover {
       opacity: 0.5;
     }
 
-    .menu__item:hover:after, .menu__item_active:after{
+    .menu__item:hover:after, .menu__item_active:after {
       opacity: 1;
       width: 100%;
     }
-  .main{
+  .main {
     padding: 15% 31px 136px 33px;
     background-size: 38%;
     background-position: center right 210px;
   }
 
-  .main__title{
+  .main__title {
     margin:-108px 672px 41px 177px;
     font: bold 50px/65px pt_serif, arial, helvetica, sans-serif;
   }
-  .main__subtitle{
+  .main__subtitle {
     margin:0px 0px 20px 177px;
     font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
     width: 351px;
     letter-spacing: 0px;
   }
 
-  .main__button{
+  .main__button {
     font: 500 14px/3px Roboto, arial, helvetica, sans-serif;
     margin: 21px 0px 0px 178px;
     border-radius:4px;
     padding: 22px 27px 20px 16px;
   }
 
-  .circle_1{
+  .circle_1 {
     background: #c8dbfb;
     border-radius: 50%;
     width: 8px;
     height: 8px;
     transform: translate(659px, 604px);
   }
-    .circle_2{
+    .circle_2 {
       background: #c8dbfb;
       border-radius: 50%;
       width: 8px;
       height: 8px;
       transform: translate(671px, 596px);
     }
-    .circle_3{
+    .circle_3 {
       background: #c8dbfb;
       border-radius: 50%;
       width: 8px;
@@ -233,64 +233,64 @@ linear-gradient(to top, #ECF3FF 90%, #ECF3FF 10%, #FFF 10%);
     }
 }
 
-@media (max-width:1024px){
+@media (max-width:1024px) {
 
-.logo{
+.logo {
   width: 200px;
   height: 35px;
   background-size: 193px;
   background-repeat:no-repeat;
   margin-left: -148px;
 }
-  .header{
+  .header {
     margin:28px 0px;
     padding: 11px 185px;
   }
    .menu {
     margin: -19px -149px;
   }
-   .menu__item{
+   .menu__item {
       margin-right: 26px;
       font: 700 14px/40px Roboto, arial, helvetica, sans-serif;
     }
 
-   .main{
+   .main {
     padding: 15% 31px 140px 31px;
     background-size: 51%;
     background-position: center right 39px;
   }
 
-  .main__title{
+  .main__title {
     margin:-52px 405px 41px 6px;
     font: bold 50px/65px pt_serif, arial, helvetica, sans-serif;
   }
-  .main__subtitle{
+  .main__subtitle {
     margin:0px 0px 23px 7px;
     font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
     width: 351px;
   }
 
-  .main__button{
+  .main__button {
     font: 500 14px/2px Roboto, arial, helvetica, sans-serif;
     margin: 19px 0px 0px 7px;
     border-radius:4px;
   }
 
-  .circle_1{
+  .circle_1 {
     background: #c8dbfb;
     border-radius: 50%;
     width: 8px;
     height: 8px;
     transform: translate(488px, 609px);
   }
-    .circle_2{
+    .circle_2 {
       background: #c8dbfb;
       border-radius: 50%;
       width: 8px;
       height: 8px;
       transform: translate(500px, 601px);
     }
-    .circle_3{
+    .circle_3 {
       background: #c8dbfb;
       border-radius: 50%;
       width: 8px;
@@ -299,47 +299,47 @@ linear-gradient(to top, #ECF3FF 90%, #ECF3FF 10%, #FFF 10%);
     }
 }
 
-@media (max-width:768px) { 
-  .menu{
+@media (max-width:768px) {
+  .menu {
     display:none;
   }
 
-  .logo{
+  .logo {
     background: url('img/logomobile.svg');
     background-size: 36px;
     background-repeat:no-repeat;
     background-position: 0px 0px;
   }
 
-  .header{
+  .header {
     margin:25px 15px;
     width:52px;
     padding: 0px;
   }
-  .main{
+  .main {
     text-align: center;
     padding: 31% 0 0;
     background-size: 77%;
     background-position: top center;
   }
 
-  .main__title{
+  .main__title {
     margin:148px 0px 35px 5px;
     font: bold 30px/39px pt_serif, arial, helvetica, sans-serif;
   }
-  .main__subtitle{
+  .main__subtitle {
     margin:0px 0px 20px 60px;
     font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
     width: 238px;
   }
 
-  .main__button{
+  .main__button {
     font: 500 13px/3px Roboto, arial, helvetica, sans-serif;
     margin: 4px 0px 0px 2px;
     border-radius:4px;
   }
 
-  #menu__toggle{
+  #menu__toggle {
     opacity: 0;
   }
 
@@ -400,11 +400,11 @@ linear-gradient(to top, #ECF3FF 90%, #ECF3FF 10%, #FFF 10%);
 .menu__item:hover {
   background-color: #CFD8DC;
 }
-.menu__item_active:after{
+.menu__item_active:after {
   top: 49px;
   opacity: 0;
 }
-.menu__item:last-child{
+.menu__item:last-child {
   margin-right: 1px;
 }
 
@@ -434,21 +434,21 @@ linear-gradient(to top, #ECF3FF 90%, #ECF3FF 10%, #FFF 10%);
 .menu__item {
   transition-duration: .25s;
 }
-.circle_1{
+.circle_1 {
   background: #FFF;
   border-radius: 50%;
   width: 8px;
   height: 8px;
   transform: translate(0px, 0px);
 }
-  .circle_2{
+  .circle_2 {
     background: #FFF;
     border-radius: 50%;
     width: 8px;
     height: 8px;
     transform: translate(0px, 0px);
   }
-  .circle_3{
+  .circle_3 {
     background: #FFF;
     border-radius: 50%;
     width: 8px;
