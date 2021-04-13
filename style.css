@@ -223,11 +223,11 @@
     padding: 22px 27px 20px 16px;
   }
 
-.circle_1 {
-  background: #c8dbfb;
-  border-radius: 50%;
-  width: 8px;
-  height: 8px;
+  .circle_1 {
+    background: #c8dbfb;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
     transform: translate(659px, 604px);
 }
 
@@ -251,10 +251,10 @@
 @media (max-width: 1024px) {
 .logo {
   width: 200px;
-  height: 35px;
+    height: 35px;
   background-size: 193px;
   background-repeat:no-repeat;
-  margin-left: -148px;
+    margin-left: -148px;
 }
 
   .header {
@@ -271,7 +271,7 @@
     font: 700 14px/40px Roboto, arial, helvetica, sans-serif;
     }
 
-   .main {
+  .main {
     padding: 15% 31px 140px 31px;
     background-size: 51%;
     background-position: center right 39px;
@@ -283,14 +283,14 @@
   }
 
   .main__subtitle {
-    margin: 0px 0px 23px 7px;
+    margin: 0 0 23px 7px;
     font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
     width: 351px;
   }
 
   .main__button {
     font: 500 14px/2px Roboto, arial, helvetica, sans-serif;
-    margin: 19px 0px 0px 7px;
+    margin: 19px 0 0 7px;
     border-radius: 4px;
   }
 
@@ -299,7 +299,7 @@
   border-radius: 50%;
   width: 8px;
   height: 8px;
-  transform: translate(488px, 609px);
+    transform: translate(488px, 609px);
 }
 
 .circle_2 {
@@ -307,7 +307,7 @@
   border-radius: 50%;
   width: 8px;
   height: 8px;
-  transform: translate(500px, 601px);
+    transform: translate(500px, 601px);
 }
 
 .circle_3 {
