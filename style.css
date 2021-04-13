@@ -259,9 +259,10 @@
    .menu {
     margin: -19px -149px;
   }
+
    .menu__item {
       margin-right: 26px;
-      font: 700 14px/40px Roboto, arial, helvetica, sans-serif;
+    font: 700 14px/40px Roboto, arial, helvetica, sans-serif;
     }
 
    .main {
@@ -446,6 +447,7 @@
 .menu__item {
   transition-duration: .25s;
 }
+
 .circle_1 {
   background: #FFF;
   border-radius: 50%;
@@ -453,18 +455,20 @@
   height: 8px;
   transform: translate(0px, 0px);
 }
-  .circle_2 {
-    background: #FFF;
-    border-radius: 50%;
-    width: 8px;
-    height: 8px;
-    transform: translate(0px, 0px);
+
+.circle_2 {
+  background: #FFF;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  transform: translate(0px, 0px);
   }
-  .circle_3 {
-    background: #FFF;
-    border-radius: 50%;
-    width: 8px;
-    height: 8px;
-    transform: translate(0px, 0px);
-  }
+
+.circle_3 {
+  background: #FFF;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  transform: translate(0px, 0px);
+}
 }
