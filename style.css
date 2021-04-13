@@ -93,7 +93,7 @@
 }
 .main__title-text_highlight_2 {
   background:
-    linear-gradient(to right, rgba(255, 255, 255, 0) 90%, #ecf3ff, rgba(255, 255, 255, 0) 10%, #FFF 10%),
+    linear-gradient(to right, rgba(255, 255, 255, 0) 90%, #ecf3ff, rgba(255, 255, 255, 0) 10%, #fff 10%),
     linear-gradient(to top, #ecf3ff 90%, #ecf3ff 10%, #fff 10%);
 }
 
@@ -134,14 +134,14 @@
 }
 
 .circle_3 {
-    background: #c8dbfb;
-    border-radius: 50%;
-    width: 8px;
-    height: 8px;
+  background: #c8dbfb;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
   transform: translate(960px, 900px);
-  }
+}
 
-@media(max-width:1367px) {
+@media (max-width: 1367px) {
   .logo {
   width: 200px;
   height: 37px;
@@ -149,7 +149,7 @@
   background-repeat:no-repeat;
 }
 .header {
-    margin:28px 0px;
+    margin: 28px 0px;
     padding: 11px 210px;
   }
  .menu {
@@ -215,27 +215,29 @@
     padding: 22px 27px 20px 16px;
   }
 
-  .circle_1 {
-    background: #c8dbfb;
-    border-radius: 50%;
-    width: 8px;
-    height: 8px;
-    transform: translate(659px, 604px);
-  }
-.circle_2 {
-      background: #c8dbfb;
-      border-radius: 50%;
-      width: 8px;
-      height: 8px;
-      transform: translate(671px, 596px);
+.circle_1 {
+  background: #c8dbfb;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+ transform: translate(659px, 604px);
 }
-    .circle_3 {
-      background: #c8dbfb;
-      border-radius: 50%;
-      width: 8px;
-      height: 8px;
-      transform: translate(683px, 588px);
-    }
+
+.circle_2 {
+  background: #c8dbfb;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  transform: translate(671px, 596px);
+}
+
+.circle_3 {
+  background: #c8dbfb;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  transform: translate(683px, 588px);
+}
 }
 
 @media (max-width:1024px) {
