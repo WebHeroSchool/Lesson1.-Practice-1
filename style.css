@@ -10,6 +10,7 @@
   width: 453px;
   letter-spacing: -0.54px;
 }
+
 .menu {
   display: flex;
   align-items: center;
@@ -92,7 +93,7 @@
 }
 .main__title-text_highlight_2 {
   background: linear-gradient(to right, rgba(255, 255, 255, 0) 90%, #ECF3FF, rgba(255, 255, 255, 0) 10%, #FFF 10%),
-linear-gradient(to top, #ECF3FF 90%, #ECF3FF 10%, #FFF 10%);
+  linear-gradient(to top, #ECF3FF 90%, #ECF3FF 10%, #FFF 10%);
 }
 
 .main__button {
@@ -111,7 +112,7 @@ linear-gradient(to top, #ECF3FF 90%, #ECF3FF 10%, #FFF 10%);
   opacity: .5;
 }
 
-#menu__toggle {
+#menu__toggle{
   opacity: 0;
 }
 
@@ -122,6 +123,7 @@ linear-gradient(to top, #ECF3FF 90%, #ECF3FF 10%, #FFF 10%);
   height: 8px;
   transform: translate(936px, 916px);
 }
+
   .circle_2 {
     background: #c8dbfb;
     border-radius: 50%;
@@ -129,6 +131,7 @@ linear-gradient(to top, #ECF3FF 90%, #ECF3FF 10%, #FFF 10%);
     height: 8px;
     transform: translate(948px, 908px);
   }
+
   .circle_3 {
     background: #c8dbfb;
     border-radius: 50%;
@@ -138,7 +141,7 @@ linear-gradient(to top, #ECF3FF 90%, #ECF3FF 10%, #FFF 10%);
   }
 
 @media(max-width:1367px) {
-  .logo{
+  .logo {
   width: 200px;
   height: 37px;
   background-size: 193px;
