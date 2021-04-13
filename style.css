@@ -190,11 +190,11 @@
     }
 
   .menu__item:hover {
-      opacity: 0.5;
+    opacity: 0.5;
     }
 
-    .menu__item:hover:after, .menu__item_active:after {
-      opacity: 1;
+  .menu__item:hover:after, .menu__item_active:after {
+    opacity: 1;
       width: 100%;
     }
 
@@ -205,7 +205,7 @@
   }
 
   .main__title {
-    margin:-108px 672px 41px 177px;
+    margin: -108px 672px 41px 177px;
     font: bold 50px/65px pt_serif, arial, helvetica, sans-serif;
   }
 
@@ -423,13 +423,13 @@
   text-decoration: none;
 }
 
-.menu__item:hover {
+  .menu__item:hover {
   background-color: #CFD8DC;
 }
 
 .menu__item_active:after {
   top: 49px;
-  opacity: 0;
+    opacity: 0;
 }
 
 .menu__item:last-child {
