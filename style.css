@@ -151,12 +151,12 @@
 }
 
 .header {
-    margin: 28px 0px;
+    margin: 28px 0;
     padding: 11px 210px;
 }
 
  .menu {
-    margin: -20px 4px 0px 400px;
+    margin: -20px 4px 0 400px;
   }
 
   .menu__item {
@@ -210,16 +210,16 @@
   }
 
   .main__subtitle {
-    margin:0px 0px 20px 177px;
+    margin: 0 0 20px 177px;
     font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
     width: 351px;
-    letter-spacing: 0px;
+    letter-spacing: 0;
   }
 
   .main__button {
     font: 500 14px/3px Roboto, arial, helvetica, sans-serif;
-    margin: 21px 0px 0px 178px;
-    border-radius:4px;
+    margin: 21px 0 0 178px;
+    border-radius: 4px;
     padding: 22px 27px 20px 16px;
   }
 
