@@ -231,7 +231,7 @@
     transform: translate(659px, 604px);
 }
 
-.circle_2 {
+  .circle_2 {
     background: #c8dbfb;
     border-radius: 50%;
     width: 8px;
@@ -239,11 +239,11 @@
     transform: translate(671px, 596px);
 }
 
-.circle_3 {
-  background: #c8dbfb;
-  border-radius: 50%;
-  width: 8px;
-  height: 8px;
+  .circle_3 {
+    background: #c8dbfb;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
     transform: translate(683px, 588px);
 }
 }
@@ -295,10 +295,10 @@
   }
 
   .circle_1 {
-  background: #c8dbfb;
-  border-radius: 50%;
-  width: 8px;
-  height: 8px;
+    background: #c8dbfb;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
     transform: translate(488px, 609px);
 }
 
@@ -366,15 +366,15 @@
   }
 
   .menu__btn {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
     position: fixed;
     top: 27px;
     right: 23px;
-  width: 27px;
-  height: 26px;
-  cursor: pointer;
-  z-index: 1;
+    width: 27px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
 }
 
 .menu__btn > span,
