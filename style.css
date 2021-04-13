@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .main__title {
   font: bold 66px/88px pt_serif, arial, helvetica, sans-serif;
   margin: 149px 3px 32px 71px;
@@ -460,6 +461,8 @@
   }
 }
 =======
+=======
+>>>>>>> d60246f4402c259863f9e0fc0f25a9f0e6389a9a
 .main__title {
   font: bold 66px/88px pt_serif, arial, helvetica, sans-serif;
   margin: 149px 3px 32px 71px;
@@ -918,3 +921,4 @@ linear-gradient(to top, #ECF3FF 90%, #ECF3FF 10%, #FFF 10%);
     transform: translate(0px, 0px);
   }
 }
+
