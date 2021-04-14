@@ -322,6 +322,18 @@
 @media (max-width: 768px) {
   .menu {
     display: none;
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 400px;
+    height: 100%;
+    margin: 0;
+    padding: 172px 0;
+    list-style: none;
+    text-align: center;
+    background-color: #fff;
   }
 
   .logo {
@@ -397,23 +409,9 @@
     top: 8px;
   }
 
-  .menu {
-    display: block;
-    position: fixed;
-    visibility: hidden;
-    top: 0;
-    left: -100%;
-    width: 400px;
-    height: 100%;
-    margin: 0;
-    padding: 172px 0;
-    list-style: none;
-    text-align: center;
-    background-color: #fff;
-}
-
   .menu__item {
     display: block;
+    transition-duration: 0.25s;
     padding: 10px 24px;
     color: #333;
     font-family: 'Roboto', sans-serif;
@@ -461,10 +459,6 @@
   }
 
   .menu {
-    transition-duration: 0.25s;
-  }
-
-  .menu__item {
     transition-duration: 0.25s;
   }
 
