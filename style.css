@@ -86,7 +86,7 @@
   float:left;
 }
 
-  .main__title-text_highlight_1 {
+.main__title-text_highlight_1 {
     background-image:
     linear-gradient(to bottom, rgba(255, 255, 255, 0) 95%, #ecf3ff 5%, #fff 5%),
     linear-gradient(to top, #ecf3ff 90%, #fff 10%);
