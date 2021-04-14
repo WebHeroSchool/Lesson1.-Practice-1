@@ -456,7 +456,7 @@
   .menu__btn > span,
   .menu__btn > span::before,
   .menu__btn > span::after {
-    transition-duration: .25s;
+    transition-duration: 0.25s;
   }
 
   .menu {
@@ -468,11 +468,11 @@
   }
 
   .circle_1 {
-    background: #FFF;
+    background: #fff;
     border-radius: 50%;
     width: 8px;
     height: 8px;
-    transform: translate(0px, 0px);
+    transform: translate(0, 0);
 }
 
   .circle_2 {
