@@ -484,8 +484,7 @@
 }
 
 @media (max-width: 552px) {
-  
-  .main__title{
+  .main__title {
     margin: 0 0;
     padding: 152px 200px;
   }
@@ -547,7 +546,7 @@
     font: 500 14px/3px Roboto, arial, helvetica, sans-serif;
     margin: 7px 0 0 2px;
     border-radius: 4px;
-    padding: 22px 24px 20px 16px
+    padding: 22px 24px 20px 16px;
   }
 
   #menu__toggle {
